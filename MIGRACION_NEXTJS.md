@@ -41,8 +41,8 @@ nombre-del-proyecto/
 
 ## 3. Migrar recursos estáticos
 
-- Copia imágenes y recursos de tu antiguo proyecto a `public/assets/`.
-- Si usabas fuentes personalizadas, agrégalas en `public` o usa Google Fonts en el layout.
+- Se copiaron todas las imágenes, íconos y fuentes personalizadas desde el proyecto original (`Challenge-ONE-Portafolio-Latam/assets`) a `public/assets/` en el nuevo portafolio Next.js.
+- Verifica que los recursos estén accesibles y referenciados correctamente en los componentes y páginas.
 
 ---
 

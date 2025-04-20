@@ -64,6 +64,12 @@ Proyecto basado en el Challenge ONE | Front End - Alura LATAM.
 
 ---
 
+## Recursos migrados
+
+Se han migrado imágenes, íconos y fuentes personalizadas a la carpeta `public/assets/` desde el proyecto original.
+
+---
+
 ## Licencia
 
 Este proyecto se distribuye bajo la licencia [MIT](./LICENSE).
