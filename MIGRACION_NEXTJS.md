@@ -72,6 +72,12 @@ nombre-del-proyecto/
 - El componente About fue integrado en la página principal (`src/app/page.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
 
+### 5.3 Migración de la sección Skills
+
+- Se migró la sección Skills a un componente React (`src/components/Skills.tsx`).
+- El componente Skills fue integrado en la página principal (`src/app/page.tsx`).
+- Estructura y clases conservadas para futura adaptación a Tailwind.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript
