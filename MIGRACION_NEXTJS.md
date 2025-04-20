@@ -84,6 +84,12 @@ nombre-del-proyecto/
 - El componente Hobbies fue integrado en la página principal (`src/app/page.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
 
+### 5.5 Migración de la sección Formación académica
+
+- Se migró la sección Formación académica a un componente React (`src/components/Academic.tsx`).
+- El componente Academic fue integrado en la página principal (`src/app/page.tsx`).
+- Estructura y clases conservadas para futura adaptación a Tailwind.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript
