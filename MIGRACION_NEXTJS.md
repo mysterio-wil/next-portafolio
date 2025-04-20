@@ -90,6 +90,12 @@ nombre-del-proyecto/
 - El componente Academic fue integrado en la página principal (`src/app/page.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
 
+### 5.6 Migración de la sección Experiencia profesional/proyectos
+
+- Se migró la sección Experiencia profesional/proyectos a un componente React (`src/components/Experience.tsx`).
+- El componente Experience fue integrado en la página principal (`src/app/page.tsx`).
+- Estructura y clases conservadas para futura adaptación a Tailwind.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript
