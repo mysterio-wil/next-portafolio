@@ -68,6 +68,7 @@ next-portafolio/
 - Sección Formación académica migrada a componente React (`src/components/Academic.tsx`) e integrada en la página principal (`src/app/page.tsx`).
 - Sección Experiencia profesional/proyectos migrada a componente React (`src/components/Experience.tsx`) e integrada en la página principal (`src/app/page.tsx`).
 - Sección Contacto migrada a componente React (`src/components/Contact.tsx`) e integrada en la página principal (`src/app/page.tsx`).
+- Sección Footer migrada a componente React (`src/components/Footer.tsx`) e integrada en el layout principal (`src/app/layout.tsx`).
 
 ---
 

@@ -102,6 +102,12 @@ nombre-del-proyecto/
 - El componente Contact fue integrado en la página principal (`src/app/page.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
 
+### 5.8 Migración de la sección Footer
+
+- Se migró la sección Footer a un componente React (`src/components/Footer.tsx`).
+- El componente Footer fue integrado en el layout principal (`src/app/layout.tsx`).
+- Estructura y clases conservadas para futura adaptación a Tailwind.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript
