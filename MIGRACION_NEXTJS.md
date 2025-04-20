@@ -78,6 +78,12 @@ nombre-del-proyecto/
 - El componente Skills fue integrado en la página principal (`src/app/page.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
 
+### 5.4 Migración de la sección Hobbies
+
+- Se migró la sección Hobbies a un componente React (`src/components/Hobbies.tsx`).
+- El componente Hobbies fue integrado en la página principal (`src/app/page.tsx`).
+- Estructura y clases conservadas para futura adaptación a Tailwind.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript
