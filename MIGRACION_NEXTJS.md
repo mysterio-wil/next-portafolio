@@ -66,6 +66,12 @@ nombre-del-proyecto/
 - El Header fue integrado en el layout principal (`src/app/layout.tsx`) para que esté presente en todas las páginas.
 - El HTML original fue adaptado a JSX y preparado para aplicar utilidades Tailwind en el siguiente paso.
 
+### 5.2 Migración de la sección Sobre mí
+
+- Se migró la sección Sobre mí a un componente React (`src/components/About.tsx`).
+- El componente About fue integrado en la página principal (`src/app/page.tsx`).
+- Estructura y clases conservadas para futura adaptación a Tailwind.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript

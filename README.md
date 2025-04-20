@@ -61,6 +61,8 @@ next-portafolio/
 ## Componentes migrados a React
 
 - Sección Header (menú de navegación) migrada a componente React (`src/components/Header.tsx`) e integrada en el layout principal (`src/app/layout.tsx`).
+- Sección Hero (presentación/perfil) migrada a componente React (`src/components/Hero.tsx`) e integrada en la página principal (`src/app/page.tsx`).
+- Sección Sobre mí migrada a componente React (`src/components/About.tsx`) e integrada en la página principal (`src/app/page.tsx`).
 
 ---
 
