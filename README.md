@@ -67,6 +67,7 @@ next-portafolio/
 - Sección Hobbies migrada a componente React (`src/components/Hobbies.tsx`) e integrada en la página principal (`src/app/page.tsx`).
 - Sección Formación académica migrada a componente React (`src/components/Academic.tsx`) e integrada en la página principal (`src/app/page.tsx`).
 - Sección Experiencia profesional/proyectos migrada a componente React (`src/components/Experience.tsx`) e integrada en la página principal (`src/app/page.tsx`).
+- Sección Contacto migrada a componente React (`src/components/Contact.tsx`) e integrada en la página principal (`src/app/page.tsx`).
 
 ---
 

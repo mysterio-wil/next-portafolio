@@ -96,6 +96,12 @@ nombre-del-proyecto/
 - El componente Experience fue integrado en la página principal (`src/app/page.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
 
+### 5.7 Migración de la sección Contacto
+
+- Se migró la sección Contacto a un componente React (`src/components/Contact.tsx`).
+- El componente Contact fue integrado en la página principal (`src/app/page.tsx`).
+- Estructura y clases conservadas para futura adaptación a Tailwind.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript
