@@ -60,6 +60,12 @@ nombre-del-proyecto/
 - Cada sección (header, sobre mí, skills, proyectos, contacto, etc.) debe ser un componente.
 - Usa JSX/TSX y adapta el HTML según sea necesario.
 
+### 5.1 Migración de la sección Header
+
+- Se migró la sección Header (menú de navegación) a un componente React (`src/components/Header.tsx`).
+- El Header fue integrado en el layout principal (`src/app/layout.tsx`) para que esté presente en todas las páginas.
+- El HTML original fue adaptado a JSX y preparado para aplicar utilidades Tailwind en el siguiente paso.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript

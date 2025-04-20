@@ -58,6 +58,12 @@ next-portafolio/
 
 ---
 
+## Componentes migrados a React
+
+- Sección Header (menú de navegación) migrada a componente React (`src/components/Header.tsx`) e integrada en el layout principal (`src/app/layout.tsx`).
+
+---
+
 ## Créditos
 
 Proyecto basado en el Challenge ONE | Front End - Alura LATAM.
