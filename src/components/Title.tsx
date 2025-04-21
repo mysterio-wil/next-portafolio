@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function Hero() {
+export default function Title() {
   return (
     <section className="title">
       <div className="title__div">

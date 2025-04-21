@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@import '../styles/normalize.css';
+@import '../styles/reset.css';
+@import '../styles/main.css';
+@import '../styles/menu/menu.css';
+@import '../styles/menu/menu-header.css';
+@import '../styles/menu/menu-imagen.css';
+@import '../styles/menu/menu-title.css';
+@import '../styles/menu/menu-list.css';
+@import '../styles/menu/menu-list-item.css';
+@import '../styles/menu/menu-list-item-contacto.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

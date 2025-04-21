@@ -1,28 +1,29 @@
 # Portafolio en Next.js
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" />
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" /></a>
+  <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" height="28"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" height="28"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" height="28"/>
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" height="28"/>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" height="28"/></a>
 </p>
 
 ---
 
 ## Descripción
 
-Portafolio profesional construido con Next.js, TypeScript y Tailwind CSS. Proyecto migrado desde HTML/CSS/JS puro a una arquitectura moderna y escalable.
+Portafolio profesional desarrollado con Next.js, TypeScript y Tailwind CSS. Incluye componentes reutilizables, estilos organizados y estructura moderna.
 
 ---
 
-## Características
+## Características principales
 - Framework: Next.js (App Router)
-- Tipado: TypeScript
-- Estilos: Tailwind CSS
+- Lenguaje: TypeScript
+- Estilos: Tailwind CSS y CSS clásico organizado
 - Linting: ESLint
 - Estructura profesional en `src/`
 - Recursos estáticos en `public/assets`
+- Componentes desacoplados y reutilizables
 
 ---
 
@@ -40,50 +41,49 @@ El proyecto estará disponible en [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## Estructura de carpetas
+## Estructura de carpetas principal
 
 ```
-next-portafolio/
+portafolio/
 ├── src/
-│   ├── app/ (o pages/)
+│   ├── app/
 │   ├── components/
 │   ├── styles/
+│   │   └── menu/   # Todos los estilos del menú organizados aquí
 ├── public/
 │   └── assets/
-├── tsconfig.json
-├── tailwind.config.js
 ├── package.json
 └── README.md
 ```
 
 ---
 
-## Componentes migrados a React
+## Organización de estilos del menú
 
-- Sección Header (menú de navegación) migrada a componente React (`src/components/Header.tsx`) e integrada en el layout principal (`src/app/layout.tsx`).
-- Sección Hero (presentación/perfil) migrada a componente React (`src/components/Hero.tsx`) e integrada en la página principal (`src/app/page.tsx`).
-- Sección Sobre mí migrada a componente React (`src/components/About.tsx`) e integrada en la página principal (`src/app/page.tsx`).
-- Sección Skills migrada a componente React (`src/components/Skills.tsx`) e integrada en la página principal (`src/app/page.tsx`).
-- Sección Hobbies migrada a componente React (`src/components/Hobbies.tsx`) e integrada en la página principal (`src/app/page.tsx`).
-- Sección Formación académica migrada a componente React (`src/components/Academic.tsx`) e integrada en la página principal (`src/app/page.tsx`).
-- Sección Experiencia profesional/proyectos migrada a componente React (`src/components/Experience.tsx`) e integrada en la página principal (`src/app/page.tsx`).
-- Sección Contacto migrada a componente React (`src/components/Contact.tsx`) e integrada en la página principal (`src/app/page.tsx`).
-- Sección Footer migrada a componente React (`src/components/Footer.tsx`) e integrada en el layout principal (`src/app/layout.tsx`).
+Todos los archivos CSS del menú están agrupados en la carpeta:
+
+```
+src/styles/menu/
+```
+
+Esto mejora el orden y facilita el mantenimiento. Las importaciones en `globals.css` reflejan esta estructura.
 
 ---
 
-## Créditos
+## Componentes principales
 
-Proyecto basado en el Challenge ONE | Front End - Alura LATAM.
-
----
-
-## Recursos migrados
-
-Se han migrado imágenes, íconos y fuentes personalizadas a la carpeta `public/assets/` desde el proyecto original.
+- `Menu`: Navegación principal responsive con menú hamburguesa
+- `Title`: Sección de presentación
+- `About`: Sobre mí
+- `Skills`: Habilidades
+- `Hobbies`: Hobbies
+- `Academic`: Formación académica
+- `Experience`: Experiencia profesional
+- `Contact`: Formulario de contacto
+- `Footer`: Pie de página
 
 ---
 
 ## Licencia
 
-Este proyecto se distribuye bajo la licencia [MIT](./LICENSE).
+Este proyecto está bajo licencia MIT.
