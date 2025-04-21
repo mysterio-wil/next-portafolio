@@ -1,0 +1,41 @@
+.experience__button--demo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #FFFFFF;
+    padding: 0.75rem 1rem;
+    background: #c31e3d;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.experience__button--demo a {
+    color: #FFFFFF;
+}
+
+.experience__button--demo:hover {
+    scale: 1.05;
+    text-transform: uppercase;
+    
+}
+
+@media screen and (min-width:1440px) {
+    .experience__button--demo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        color: #FFFFFF;
+    }
+    
+}

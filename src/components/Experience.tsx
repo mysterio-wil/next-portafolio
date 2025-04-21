@@ -5,7 +5,15 @@ export default function Experience() {
     <section className="experience" id="xp">
       <h2 className="experience__section__title">Experiencia Profesional</h2>
       <div className="experience__box">
-        <Image className="experience__img experience__img--imagen1" src="/assets/decod_print.png" alt="imagen-decodificador" width={300} height={180} />
+        <div className="experience__img-wrapper">
+          <Image
+            className="experience__img experience__img--imagen1"
+            src="/assets/decod_print.png"
+            alt="imagen-decodificador"
+            fill
+            style={{ objectFit: "cortain" }}
+          />
+        </div>
         <div className="experience__info">
           <h3 className="experience__title">Encriptador de texto</h3>
           <h4 className="experience__text">Challenge Alura Codificador</h4>
@@ -20,7 +28,15 @@ export default function Experience() {
         </div>
       </div>
       <div className="experience__box">
-        <Image className="experience__img experience__img--imagen2" src="/assets/barberia_alura.png" alt="imagen-barberia-alura" width={300} height={180} />
+        <div className="experience__img-wrapper">
+          <Image
+            className="experience__img experience__img--imagen2"
+            src="/assets/barberia_alura.png"
+            alt="imagen-barberia-alura"
+            fill
+            style={{ objectFit: "cortain" }}
+          />
+        </div>
         <div className="experience__info">
           <h3 className="experience__title">Barberia Alura</h3>
           <h4 className="experience__text">CSS Avanzado</h4>
@@ -35,7 +51,15 @@ export default function Experience() {
         </div>
       </div>
       <div className="experience__box">
-        <Image className="experience__img experience__img--imagen1" src="/assets/mini-alura.png" alt="imagen-mini-alura" width={300} height={180} />
+        <div className="experience__img-wrapper">
+          <Image
+            className="experience__img experience__img--imagen1"
+            src="/assets/mini-alura.png"
+            alt="imagen-mini-alura"
+            fill
+            style={{ objectFit: "cortain" }}
+          />
+        </div>
         <div className="experience__info">
           <h3 className="experience__title">Mini Alura</h3>
           <h4 className="experience__text">Flexbox CSS</h4>
@@ -50,7 +74,15 @@ export default function Experience() {
         </div>
       </div>
       <div className="experience__box">
-        <Image className="experience__img experience__img--imagen2" src="/assets/apeperia.png" alt="imagen-apeperia" width={300} height={180} />
+        <div className="experience__img-wrapper">
+          <Image
+            className="experience__img experience__img--imagen2"
+            src="/assets/apeperia.png"
+            alt="imagen-apeperia"
+            fill
+            style={{ objectFit: "cortain" }}
+          />
+        </div>
         <div className="experience__info">
           <h3 className="experience__title">Apeperia</h3>
           <h4 className="experience__text">Layouts Resposivos</h4>
@@ -65,7 +97,15 @@ export default function Experience() {
         </div>
       </div>
       <div className="experience__box">
-        <Image className="experience__img experience__img--imagen1" src="/assets/frutayfruto.png" alt="imagen-frutayfruto" width={300} height={180} />
+        <div className="experience__img-wrapper">
+          <Image
+            className="experience__img experience__img--imagen1"
+            src="/assets/frutayfruto.png"
+            alt="imagen-frutayfruto"
+            fill
+            style={{ objectFit: "cortain" }}
+          />
+        </div>
         <div className="experience__info">
           <h3 className="experience__title">Fruta y fruto</h3>
           <h4 className="experience__text">Arquitectura CSS</h4>

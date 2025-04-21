@@ -171,6 +171,47 @@ nombre-del-proyecto/
 - Se recomienda revisar que las clases en el JSX de `Academic.tsx` coincidan con los nombres definidos en los archivos CSS para asegurar la correcta aplicación de estilos.
 - El componente Academic ahora es más fácil de mantener, escalable y con estilos desacoplados del resto de la aplicación.
 
+### 5.15 Estilización del componente Experience
+- Se crearon y organizaron todos los archivos CSS relacionados con el componente Experience en la carpeta `src/styles/experience/` (`experience.css`, `experience-box.css`, `experience-img.css`, `experience-info.css`, `experience-text.css`, `experience-title.css`, `experience-section-title.css`, `experience-description.css`, `experience-demo.css`, `experience-repo.css`, `experience-button-demo.css`, `experience-button-repo.css`).
+- Se importaron todos los archivos CSS de la carpeta en `globals.css` para aplicar los estilos globalmente.
+- Se recomienda revisar que las clases en el JSX de `Experience.tsx` coincidan con los nombres definidos en los archivos CSS para asegurar la correcta aplicación de estilos.
+- El componente Experience ahora es más fácil de mantener, escalable y con estilos desacoplados del resto de la aplicación.
+
+---
+
+## Estilización del componente Experience
+
+El componente Experience utiliza una estructura modular de CSS para mantener el código organizado y facilitar la mantenibilidad. La estilización se realizó siguiendo estos pasos:
+
+1. **Organización de archivos CSS**
+   - Todos los estilos relacionados con Experience se encuentran en la carpeta `src/styles/experience/`.
+   - Archivos principales:
+     - `experience.css`: estilos generales del componente.
+     - `experience-box.css`: estilos para los contenedores de cada experiencia.
+     - `experience-img.css`: estilos específicos para las imágenes de los proyectos.
+     - `experience-info.css`, `experience-text.css`, `experience-title.css`, `experience-section-title.css`, `experience-description.css`, `experience-demo.css`, `experience-repo.css`, `experience-button-demo.css`, `experience-button-repo.css`: estilos para cada sub-bloque del componente.
+
+2. **Importación global**
+   - Todos los archivos CSS de Experience se importan en `src/app/globals.css` para asegurar su aplicación global y evitar conflictos de carga.
+
+3. **Imágenes responsivas**
+   - Las imágenes dentro de Experience usan el componente Next `<Image fill />` envueltas en un div `.experience__img-wrapper`.
+   - El wrapper utiliza `aspect-ratio` y `max-width` para asegurar proporción y responsividad.
+   - Las imágenes usan `object-fit: contain` para que siempre se vean completas y centradas dentro del área, aunque pueda haber espacio en blanco si la proporción no coincide.
+
+4. **Flexbox y layout**
+   - Se utiliza flexbox para alinear y distribuir los elementos internos de cada experiencia, asegurando un diseño adaptable en diferentes resoluciones.
+
+5. **Responsive Design**
+   - Se emplean media queries para ajustar el tamaño y disposición de las cajas y las imágenes según el tamaño de pantalla.
+
+6. **Buenas prácticas**
+   - Separación de responsabilidades por archivo.
+   - Nombres de clases con BEM para claridad y escalabilidad.
+   - Comentarios en los CSS explicando cada sección relevante.
+
+> Esta estructura permite modificar o agregar nuevas experiencias fácilmente, manteniendo la coherencia visual y la mantenibilidad del código.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript

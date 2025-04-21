@@ -1,10 +1,28 @@
+.academic__img-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.academic__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  padding: 8px; /* Puedes ajustar el valor según el espacio que desees */
+  box-sizing: border-box; /* Asegura que el padding no sume al tamaño total */
+}
+
 .academic__courses__item__img {
-    width: 296px;
-    height: 118px;
+    width: 296px;              /* O usa 296px si quieres tamaño fijo */
+    height: 120px;            /* O el valor que desees */
     background: #FFFFFF;
-    justify-content: center;
     display: flex;
+    justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .academic__courses__item__img img {

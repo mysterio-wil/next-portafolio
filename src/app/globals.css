@@ -49,6 +49,19 @@
 @import '../styles/academic/academic-courses-item-title.css';
 @import '../styles/academic/academic-courses-item-subtitle.css';
 
+@import '../styles/experience/experience.css';
+@import '../styles/experience/experience-box.css';
+@import '../styles/experience/experience-img.css';
+@import '../styles/experience/experience-info.css';
+@import '../styles/experience/experience-text.css';
+@import '../styles/experience/experience-title.css';
+@import '../styles/experience/experience-section-title.css';
+@import '../styles/experience/experience-description.css';
+@import '../styles/experience/experience-demo.css';
+@import '../styles/experience/experience-repo.css';
+@import '../styles/experience/experience-button-demo.css';
+@import '../styles/experience/experience-button-repo.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

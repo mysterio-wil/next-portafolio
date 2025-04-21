@@ -78,7 +78,7 @@ Esto mejora el orden y facilita el mantenimiento. Las importaciones en `globals.
 - `Skills`: Habilidades técnicas. Estilizado con CSS modularizado en `src/styles/skill/` para mayor organización y mantenibilidad.
 - `Hobbies`: Intereses y pasatiempos. Estilizado con CSS modularizado en `src/styles/hobbie/` para mayor organización y mantenibilidad.
 - `Academic`: Formación académica. Estilizado con CSS modularizado en `src/styles/academic/` para mayor organización y mantenibilidad.
-- `Experience`: Experiencia profesional
+- `Experience`: Experiencia profesional. Estilizado con CSS modularizado en `src/styles/experience/` para mayor organización y mantenibilidad. Las imágenes usan `object-fit: contain` para mostrarse completas y centradas, adaptándose proporcionalmente al área asignada.
 - `Contact`: Formulario de contacto
 - `Footer`: Pie de página
 
