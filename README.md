@@ -84,6 +84,17 @@ Esto mejora el orden y facilita el mantenimiento. Las importaciones en `globals.
 
 ---
 
+## Validación del formulario de Contact
+
+El formulario de contacto realiza la validación completamente en React:
+- Controla los campos con `useState`.
+- Valida nombre (mínimo 6 caracteres), email (formato), asunto (mínimo 10 caracteres) y mensaje (mínimo 20 caracteres) al enviar.
+- Si hay errores, muestra mensajes y bloquea el envío.
+- Si todo es válido, muestra "Enviado con éxito!" y limpia los campos.
+- El envío real a Formspree está deshabilitado por ahora.
+
+---
+
 ## Estructura recomendada Next.js (app router)
 
 - **layout.tsx**: Incluye componentes globales como el menú de navegación (`Menu`) y el pie de página (`Footer`). Estos envuelven el contenido principal y se muestran en todas las páginas.

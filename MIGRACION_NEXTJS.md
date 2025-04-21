@@ -196,6 +196,30 @@ Para mantener una arquitectura limpia y escalable en Next.js (app router):
 
 ---
 
+## Validación del formulario de Contact
+
+La validación del formulario de contacto se implementó completamente en React, reemplazando la lógica previa en JavaScript puro. El proceso es el siguiente:
+
+1. **Control de campos**
+   - Todos los campos del formulario (`nombre`, `email`, `asunto`, `mensaje`) son controlados mediante el hook `useState`.
+
+2. **Validación en el submit**
+   - Al enviar el formulario, se ejecuta una función que valida:
+     - Nombre: mínimo 6 caracteres.
+     - Email: formato válido mediante expresión regular.
+     - Asunto: mínimo 10 caracteres.
+     - Mensaje: mínimo 20 caracteres.
+   - Si algún campo no es válido, se muestran los mensajes de error y **se bloquea el envío**.
+   - Si todo es válido, se muestra un mensaje de éxito y se limpian los campos. (El envío real a Formspree está deshabilitado por ahora.)
+
+3. **Mensajes de error y éxito**
+   - Los mensajes de error se muestran debajo del formulario.
+   - Al enviar correctamente se muestra: "Enviado con éxito!".
+
+> Esta validación asegura una experiencia de usuario robusta y evita el envío de datos incompletos o erróneos.
+
+---
+
 ## Estilización del componente Experience
 
 El componente Experience utiliza una estructura modular de CSS para mantener el código organizado y facilitar la mantenibilidad. La estilización se realizó siguiendo estos pasos:
