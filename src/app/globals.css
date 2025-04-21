@@ -40,6 +40,15 @@
 @import '../styles/hobbie/hobbies-name.css';
 @import '../styles/hobbie/hobbies-title.css';
 
+@import '../styles/academic/academic.css';
+@import '../styles/academic/academic-title.css';
+@import '../styles/academic/academic-courses.css';
+@import '../styles/academic/academic-courses-box.css';
+@import '../styles/academic/academic-courses-list.css';
+@import '../styles/academic/academic-courses-item-img.css';
+@import '../styles/academic/academic-courses-item-title.css';
+@import '../styles/academic/academic-courses-item-subtitle.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -77,7 +77,7 @@ Esto mejora el orden y facilita el mantenimiento. Las importaciones en `globals.
 - `About`: Sobre mí. Estilizado con CSS modularizado en `src/styles/about/` para mayor organización y mantenibilidad.
 - `Skills`: Habilidades técnicas. Estilizado con CSS modularizado en `src/styles/skill/` para mayor organización y mantenibilidad.
 - `Hobbies`: Intereses y pasatiempos. Estilizado con CSS modularizado en `src/styles/hobbie/` para mayor organización y mantenibilidad.
-- `Academic`: Formación académica
+- `Academic`: Formación académica. Estilizado con CSS modularizado en `src/styles/academic/` para mayor organización y mantenibilidad.
 - `Experience`: Experiencia profesional
 - `Contact`: Formulario de contacto
 - `Footer`: Pie de página

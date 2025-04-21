@@ -165,6 +165,12 @@ nombre-del-proyecto/
 - Se recomienda revisar que las clases en el JSX de `Hobbies.tsx` coincidan con los nombres definidos en los archivos CSS para asegurar la correcta aplicación de estilos.
 - El componente Hobbies ahora es más fácil de mantener, escalable y con estilos desacoplados del resto de la aplicación.
 
+### 5.14 Estilización del componente Academic
+- Se crearon y organizaron todos los archivos CSS relacionados con el componente Academic en la carpeta `src/styles/academic/` (`academic.css`, `academic-title.css`, `academic-courses.css`, `academic-courses.box.css`, `academic-courses-list.css`, `academic-courses-item-img.css`, `academic-courses-item-title.css`, `academic-courses-item-subtitle.css`).
+- Se importaron todos los archivos CSS de la carpeta en `globals.css` para aplicar los estilos globalmente.
+- Se recomienda revisar que las clases en el JSX de `Academic.tsx` coincidan con los nombres definidos en los archivos CSS para asegurar la correcta aplicación de estilos.
+- El componente Academic ahora es más fácil de mantener, escalable y con estilos desacoplados del resto de la aplicación.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript

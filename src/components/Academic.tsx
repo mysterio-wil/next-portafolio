@@ -8,7 +8,7 @@ export default function Academic() {
         <div className="academic__courses__box">
           <ul className="academic__courses__list">
             <li className="academic__courses__item__img">
-              <Image src="/assets/unas.png" alt="unas" width={48} height={48} />
+              <Image src="/assets/unas.png" alt="unas" width={200} height={200} />
             </li>
             <li className="academic__courses__item__title">
               <h3>Agronomía</h3>
@@ -21,7 +21,7 @@ export default function Academic() {
         <div className="academic__courses__box">
           <ul className="academic__courses__list">
             <li className="academic__courses__item__img">
-              <Image src="/assets/logo-egg.jfif" alt="logo-egg" width={48} height={48} />
+              <Image src="/assets/logo-egg.jfif" alt="logo-egg" width={200} height={200} />
             </li>
             <li className="academic__courses__item__title">
               <h3>Programación desde Cero</h3>
@@ -34,7 +34,7 @@ export default function Academic() {
         <div className="academic__courses__box">
           <ul className="academic__courses__list">
             <li className="academic__courses__item__img">
-              <Image src="/assets/logo-aleph.png" alt="logo-aleph" width={48} height={48} />
+              <Image src="/assets/logo-aleph.png" alt="logo-aleph" width={200} height={200} />
             </li>
             <li className="academic__courses__item__title">
               <h3>Marketing Digital SPA15</h3>
@@ -47,7 +47,7 @@ export default function Academic() {
         <div className="academic__courses__box">
           <ul className="academic__courses__list">
             <li className="academic__courses__item__img">
-              <Image src="/assets/logo-alura.svg" alt="logo-alura" width={48} height={48} />
+              <Image src="/assets/logo-alura.svg" alt="logo-alura" width={200} height={200} />
             </li>
             <li className="academic__courses__item__title">
               <h3>Front-End</h3>
