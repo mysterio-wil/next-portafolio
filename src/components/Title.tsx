@@ -4,7 +4,7 @@ export default function Title() {
   return (
     <section className="title">
       <div className="title__div">
-        <Image className="title__profile" src="/assets/profile.png" alt="foto de perfil" width={120} height={120} />
+        <Image className="title__profile" src="/assets/profile.png" alt="foto de perfil" width={240} height={240} />
         <div className="title__container">
           <h2 className="title__bio">
             Hola, mi nombre es Wilmer, soy Bachiller en Agronomia, diseñador y desarrollador Web.
