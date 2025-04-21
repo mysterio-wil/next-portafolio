@@ -84,6 +84,12 @@ Esto mejora el orden y facilita el mantenimiento. Las importaciones en `globals.
 
 ---
 
+## Versionado del proyecto
+
+- **v1.0.0**: Versión estable migrada a Next.js + TypeScript + Tailwind, conservando el CSS original. Este tag marca el estado base antes de iniciar la migración completa de estilos a Tailwind CSS.
+
+---
+
 ## Validación del formulario de Contact
 
 El formulario de contacto realiza la validación completamente en React:
