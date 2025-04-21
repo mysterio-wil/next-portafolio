@@ -153,6 +153,12 @@ nombre-del-proyecto/
 - Se recomienda revisar que las clases en el JSX de `About.tsx` coincidan con los nombres definidos en los archivos CSS para asegurar la correcta aplicación de estilos.
 - El componente About ahora es más fácil de mantener, escalable y con estilos desacoplados del resto de la aplicación.
 
+### 5.12 Estilización del componente Skills
+- Se crearon y organizaron todos los archivos CSS relacionados con el componente Skills en la carpeta `src/styles/skill/` (`skills.css`, `skills-box.css`, `skills-img.css`, `skills-line.css`, `skills-name.css`, `skills-title.css`).
+- Se importaron todos los archivos CSS de la carpeta en `globals.css` para aplicar los estilos globalmente.
+- Se recomienda revisar que las clases en el JSX de `Skills.tsx` coincidan con los nombres definidos en los archivos CSS para asegurar la correcta aplicación de estilos.
+- El componente Skills ahora es más fácil de mantener, escalable y con estilos desacoplados del resto de la aplicación.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript

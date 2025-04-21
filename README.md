@@ -75,7 +75,7 @@ Esto mejora el orden y facilita el mantenimiento. Las importaciones en `globals.
 - `Menu`: Navegación principal responsive con menú hamburguesa
 - `Title`: Sección de presentación
 - `About`: Sobre mí. Estilizado con CSS modularizado en `src/styles/about/` para mayor organización y mantenibilidad.
-- `Skills`: Habilidades
+- `Skills`: Habilidades técnicas. Estilizado con CSS modularizado en `src/styles/skill/` para mayor organización y mantenibilidad.
 - `Hobbies`: Hobbies
 - `Academic`: Formación académica
 - `Experience`: Experiencia profesional

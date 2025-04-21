@@ -1,0 +1,44 @@
+.skills__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    text-align: center;
+    color: #464646;
+}
+@media screen and (min-width:768px) {
+    .skills__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.375rem;
+        line-height: 1.625rem;      
+        text-align: center;   
+        color: #464646;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .skills__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.375rem;
+        text-align: center;
+        color: #464646;
+    }
+}
+@media screen and (min-width:1440px) {
+    .skills__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.375rem;
+        text-align: center;
+        color: #464646;
+    }
+}
+

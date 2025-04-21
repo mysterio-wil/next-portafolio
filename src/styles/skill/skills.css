@@ -1,0 +1,23 @@
+.skills {
+    padding: 1rem;
+    background: #F5F5F5;
+}
+
+@media screen and (min-width:768px) {
+    .skills {
+        padding: 2rem;
+        background: #F5F5F5;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .skills {
+        padding:6rem 4rem;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .skills {
+        padding:6rem 9.5rem;
+    }
+}

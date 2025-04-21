@@ -26,6 +26,13 @@
 @import '../styles/about/about-paragraph.css';
 @import '../styles/about/about-titulo.css';
 
+@import '../styles/skill/skills.css';
+@import '../styles/skill/skills-box.css';
+@import '../styles/skill/skills-img.css';
+@import '../styles/skill/skills-line.css';
+@import '../styles/skill/skills-name.css';
+@import '../styles/skill/skills-title.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
