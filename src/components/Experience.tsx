@@ -11,7 +11,7 @@ export default function Experience() {
             src="/assets/decod_print.png"
             alt="imagen-decodificador"
             fill
-            style={{ objectFit: "cortain" }}
+            style={{ objectFit: "contain" }}
           />
         </div>
         <div className="experience__info">
@@ -34,7 +34,7 @@ export default function Experience() {
             src="/assets/barberia_alura.png"
             alt="imagen-barberia-alura"
             fill
-            style={{ objectFit: "cortain" }}
+            style={{ objectFit: "contain" }}
           />
         </div>
         <div className="experience__info">
@@ -57,7 +57,7 @@ export default function Experience() {
             src="/assets/mini-alura.png"
             alt="imagen-mini-alura"
             fill
-            style={{ objectFit: "cortain" }}
+            style={{ objectFit: "contain" }}
           />
         </div>
         <div className="experience__info">
@@ -80,7 +80,7 @@ export default function Experience() {
             src="/assets/apeperia.png"
             alt="imagen-apeperia"
             fill
-            style={{ objectFit: "cortain" }}
+            style={{ objectFit: "contain" }}
           />
         </div>
         <div className="experience__info">
@@ -103,7 +103,7 @@ export default function Experience() {
             src="/assets/frutayfruto.png"
             alt="imagen-frutayfruto"
             fill
-            style={{ objectFit: "cortain" }}
+            style={{ objectFit: "contain" }}
           />
         </div>
         <div className="experience__info">

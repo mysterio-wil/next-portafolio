@@ -51,6 +51,7 @@ dist/
 *.local
 *.cache
 *.tmp
+workspace.xml
 js/
 # Archivos temporales de editores
 *.swp
