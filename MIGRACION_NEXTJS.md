@@ -147,6 +147,12 @@ nombre-del-proyecto/
 - Se revisaron y ajustaron las clases del JSX en `src/components/Title.tsx` para que coincidan con los nombres definidos en los archivos CSS.
 - El resultado es un componente Title moderno, responsivo y fácil de mantener.
 
+### 5.11 Estilización del componente About
+- Se crearon y organizaron todos los archivos CSS relacionados con el componente About en la carpeta `src/styles/about/` (`about.css`, `about-container.css`, `about-imagen.css`, `about-paragraph.css`, `about-titulo.css`).
+- Se importaron todos los archivos CSS de la carpeta en `globals.css` para aplicar los estilos globalmente.
+- Se recomienda revisar que las clases en el JSX de `About.tsx` coincidan con los nombres definidos en los archivos CSS para asegurar la correcta aplicación de estilos.
+- El componente About ahora es más fácil de mantener, escalable y con estilos desacoplados del resto de la aplicación.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript

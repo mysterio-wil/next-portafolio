@@ -20,6 +20,12 @@
 @import '../styles/titulo/title-profile.css';
 @import '../styles/titulo/title-subsection.css';
 
+@import '../styles/about/about.css';
+@import '../styles/about/about-container.css';
+@import '../styles/about/about-imagen.css';
+@import '../styles/about/about-paragraph.css';
+@import '../styles/about/about-titulo.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

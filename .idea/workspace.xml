@@ -4,32 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8b0e910-cae6-4b8a-883e-e5b2cd26355a" name="Changes" comment="Refactor: organización y estilización avanzada del componente Menu&#10;&#10;- Todos los archivos CSS del menú agrupados en src/styles/menu para mejor mantenimiento.&#10;- Media queries y reglas de responsividad revisadas y corregidas.&#10;- Imports de estilos actualizados en globals.css.&#10;- Código del componente Menu y menú hamburguesa revisado para asegurar funcionamiento y visualización correcta en mobile y desktop.&#10;- Documentación y README actualizados para reflejar la nueva estructura y organización de estilos del menú.">
+    <list default="true" id="f8b0e910-cae6-4b8a-883e-e5b2cd26355a" name="Changes" comment="feat: estilización avanzada del componente Title&#10;&#10;- Se crearon y organizaron archivos CSS específicos en src/styles/titulo/ para el componente Title (title.css, title-bio.css, title-container.css, etc.).&#10;- Se importaron todos los estilos en globals.css para aplicación global.&#10;- Se ajustaron las clases en el JSX de Title.tsx para coincidir con los archivos CSS.&#10;- El componente Title ahora es moderno, responsivo y fácil de mantener.&#10;- Se documentó el procedimiento en MIGRACION_NEXTJS.md.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MIGRACION_NEXTJS.md" beforeDir="false" afterPath="$PROJECT_DIR$/MIGRACION_NEXTJS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/apeperia.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/apeperia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/barberia_alura.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/contact_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/cv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/decod_print.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/decod_print.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/frutayfruto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/logo-aleph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/logo-alura.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/logo-egg.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/menu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/mini-alura.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/nodejs_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/php_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/portafolio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/profile1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/react_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/react_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/signature.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/signature.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/signature.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/signature.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/unas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/unas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/val-formularios.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/val-formularios.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +70,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745209509518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: estilización avanzada del componente Title&#10;&#10;- Se crearon y organizaron archivos CSS específicos en src/styles/titulo/ para el componente Title (title.css, title-bio.css, title-container.css, etc.).&#10;- Se importaron todos los estilos en globals.css para aplicación global.&#10;- Se ajustaron las clases en el JSX de Title.tsx para coincidir con los archivos CSS.&#10;- El componente Title ahora es moderno, responsivo y fácil de mantener.&#10;- Se documentó el procedimiento en MIGRACION_NEXTJS.md.">
+      <option name="closed" value="true" />
+      <created>1745212297793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745212297793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor: organización y estilización avanzada del componente Menu&#10;&#10;- Todos los archivos CSS del menú agrupados en src/styles/menu para mejor mantenimiento.&#10;- Media queries y reglas de responsividad revisadas y corregidas.&#10;- Imports de estilos actualizados en globals.css.&#10;- Código del componente Menu y menú hamburguesa revisado para asegurar funcionamiento y visualización correcta en mobile y desktop.&#10;- Documentación y README actualizados para reflejar la nueva estructura y organización de estilos del menú." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor: organización y estilización avanzada del componente Menu&#10;&#10;- Todos los archivos CSS del menú agrupados en src/styles/menu para mejor mantenimiento.&#10;- Media queries y reglas de responsividad revisadas y corregidas.&#10;- Imports de estilos actualizados en globals.css.&#10;- Código del componente Menu y menú hamburguesa revisado para asegurar funcionamiento y visualización correcta en mobile y desktop.&#10;- Documentación y README actualizados para reflejar la nueva estructura y organización de estilos del menú." />
+    <MESSAGE value="feat: estilización avanzada del componente Title&#10;&#10;- Se crearon y organizaron archivos CSS específicos en src/styles/titulo/ para el componente Title (title.css, title-bio.css, title-container.css, etc.).&#10;- Se importaron todos los estilos en globals.css para aplicación global.&#10;- Se ajustaron las clases en el JSX de Title.tsx para coincidir con los archivos CSS.&#10;- El componente Title ahora es moderno, responsivo y fácil de mantener.&#10;- Se documentó el procedimiento en MIGRACION_NEXTJS.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: estilización avanzada del componente Title&#10;&#10;- Se crearon y organizaron archivos CSS específicos en src/styles/titulo/ para el componente Title (title.css, title-bio.css, title-container.css, etc.).&#10;- Se importaron todos los estilos en globals.css para aplicación global.&#10;- Se ajustaron las clases en el JSX de Title.tsx para coincidir con los archivos CSS.&#10;- El componente Title ahora es moderno, responsivo y fácil de mantener.&#10;- Se documentó el procedimiento en MIGRACION_NEXTJS.md." />
   </component>
 </project>
