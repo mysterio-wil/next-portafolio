@@ -62,6 +62,18 @@
 @import '../styles/experience/experience-button-demo.css';
 @import '../styles/experience/experience-button-repo.css';
 
+@import '../styles/formcontact/formcontact.css';
+@import '../styles/formcontact/formcontact-button.css';
+@import '../styles/formcontact/formcontact-contact.css';
+@import '../styles/formcontact/formcontact-form.css';
+@import '../styles/formcontact/formcontact-img.css';
+@import '../styles/formcontact/formcontact-input.css';
+@import '../styles/formcontact/formcontact-left.css';
+@import '../styles/formcontact/formcontact-subtext.css';
+@import '../styles/formcontact/formcontact-text.css';
+@import '../styles/formcontact/formcontact-textarea.css';
+@import '../styles/formcontact/formcontact-title.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

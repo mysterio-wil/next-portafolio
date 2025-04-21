@@ -79,7 +79,7 @@ Esto mejora el orden y facilita el mantenimiento. Las importaciones en `globals.
 - `Hobbies`: Intereses y pasatiempos. Estilizado con CSS modularizado en `src/styles/hobbie/` para mayor organización y mantenibilidad.
 - `Academic`: Formación académica. Estilizado con CSS modularizado en `src/styles/academic/` para mayor organización y mantenibilidad.
 - `Experience`: Experiencia profesional. Estilizado con CSS modularizado en `src/styles/experience/` para mayor organización y mantenibilidad. Las imágenes usan `object-fit: contain` para mostrarse completas y centradas, adaptándose proporcionalmente al área asignada.
-- `Contact`: Formulario de contacto
+- `Contact`: Formulario de contacto. Estilizado con CSS modularizado en `src/styles/formcontact/` para mayor organización y mantenibilidad. Todas las partes del formulario (inputs, botones, textos, etc.) cuentan con archivos CSS dedicados e importados globalmente.
 - `Footer`: Pie de página
 
 ---

@@ -1,0 +1,16 @@
+.formcontact {
+    padding: 2rem;
+    background: #f3e4e4;
+}
+
+@media screen and (min-width:1024px) {
+    .formcontact {
+        padding: 6rem 4rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .formcontact {
+        padding: 6rem 9.5rem;
+    }
+}

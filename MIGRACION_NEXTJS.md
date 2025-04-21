@@ -214,6 +214,28 @@ El componente Experience utiliza una estructura modular de CSS para mantener el 
 
 ---
 
+## Estilización del componente Contact
+
+El componente Contact utiliza una estructura modular de CSS para mantener la organización y facilitar la mantenibilidad. La estilización se realizó así:
+
+1. **Organización de archivos CSS**
+   - Todos los estilos de Contact se encuentran en `src/styles/formcontact/`.
+   - Archivos principales:
+     - `formcontact.css`: estilos generales del componente.
+     - `formcontact-contact.css`, `formcontact-form.css`, `formcontact-img.css`, `formcontact-input.css`, `formcontact-left.css`, `formcontact-subtext.css`, `formcontact-text.css`, `formcontact-textarea.css`, `formcontact-title.css`, `formcontact-button.css`: estilos para cada parte del formulario de contacto.
+
+2. **Importación global**
+   - Todos los archivos CSS de Contact se importan en `src/app/globals.css` para asegurar su aplicación global.
+
+3. **Buenas prácticas**
+   - Separación de responsabilidades por archivo.
+   - Nombres de clases descriptivos y consistentes.
+   - Modularidad para facilitar futuras modificaciones.
+
+> Esta estructura permite una fácil escalabilidad y mantenimiento del formulario de contacto.
+
+---
+
 ## 6. Migrar scripts JS a TypeScript
 
 - Copia funciones y scripts JS a archivos `.ts` o `.tsx`.
