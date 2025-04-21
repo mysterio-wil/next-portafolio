@@ -11,6 +11,15 @@
 @import '../styles/menu/menu-list-item.css';
 @import '../styles/menu/menu-list-item-contacto.css';
 
+@import '../styles/titulo/title.css';
+@import '../styles/titulo/title-bio.css';
+@import '../styles/titulo/title-container.css';
+@import '../styles/titulo/title-div.css';
+@import '../styles/titulo/title-network.css';
+@import '../styles/titulo/title-network-item.css';
+@import '../styles/titulo/title-profile.css';
+@import '../styles/titulo/title-subsection.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

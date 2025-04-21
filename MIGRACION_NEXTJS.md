@@ -46,6 +46,41 @@ nombre-del-proyecto/
 
 ---
 
+### 3.1 Guía para comprimir imágenes
+
+1. **Herramientas Online (fácil y rápido)**
+   - TinyPNG (sirve también para JPG)
+   - Squoosh (permite ajustar calidad, formato y ver comparación)
+   - ILoveIMG
+   **Pasos:**
+   - Sube tu imagen a una de estas webs.
+   - Descarga la versión comprimida.
+   - Sustituye la imagen original en `/public/assets` por la comprimida.
+
+2. **Herramientas de Escritorio**
+   - ImageOptim (Mac)
+   - Caesium (Windows/Linux)
+   - RIOT (Windows)
+
+3. **Automatización (opcional para proyectos grandes)**
+   Si tienes muchas imágenes y quieres automatizar el proceso, puedes usar un paquete de Node.js:
+   - Instala imagemin-cli:
+     ```bash
+     npm install -g imagemin-cli
+     ```
+   - Comprime imágenes en una carpeta:
+     ```bash
+     imagemin public/assets/* --out-dir=public/assets/optimizado
+     ```
+   Esto creará versiones comprimidas en `public/assets/optimizado`.
+
+4. **Buenas prácticas**
+   - Usa formatos modernos: WebP (mejor que JPG/PNG para web).
+   - Mantén el tamaño de archivo por debajo de 300 KB para imágenes grandes.
+   - Usa el tamaño/resolución mínima necesaria para tu diseño.
+
+---
+
 ## 4. Migrar estilos
 
 - Copia tus archivos CSS a `src/styles/`.
@@ -61,52 +96,56 @@ nombre-del-proyecto/
 - Usa JSX/TSX y adapta el HTML según sea necesario.
 
 ### 5.1 Migración de la sección Header
-
 - Se migró la sección Header (menú de navegación) a un componente React (`src/components/Header.tsx`).
 - El Header fue integrado en el layout principal (`src/app/layout.tsx`) para que esté presente en todas las páginas.
 - El HTML original fue adaptado a JSX y preparado para aplicar utilidades Tailwind en el siguiente paso.
 
 ### 5.2 Migración de la sección Sobre mí
-
 - Se migró la sección Sobre mí a un componente React (`src/components/About.tsx`).
 - El componente About fue integrado en la página principal (`src/app/page.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
 
 ### 5.3 Migración de la sección Skills
-
 - Se migró la sección Skills a un componente React (`src/components/Skills.tsx`).
 - El componente Skills fue integrado en la página principal (`src/app/page.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
 
 ### 5.4 Migración de la sección Hobbies
-
 - Se migró la sección Hobbies a un componente React (`src/components/Hobbies.tsx`).
 - El componente Hobbies fue integrado en la página principal (`src/app/page.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
 
 ### 5.5 Migración de la sección Formación académica
-
 - Se migró la sección Formación académica a un componente React (`src/components/Academic.tsx`).
 - El componente Academic fue integrado en la página principal (`src/app/page.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
 
 ### 5.6 Migración de la sección Experiencia profesional/proyectos
-
 - Se migró la sección Experiencia profesional/proyectos a un componente React (`src/components/Experience.tsx`).
 - El componente Experience fue integrado en la página principal (`src/app/page.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
 
 ### 5.7 Migración de la sección Contacto
-
 - Se migró la sección Contacto a un componente React (`src/components/Contact.tsx`).
 - El componente Contact fue integrado en la página principal (`src/app/page.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
 
 ### 5.8 Migración de la sección Footer
-
 - Se migró la sección Footer a un componente React (`src/components/Footer.tsx`).
 - El componente Footer fue integrado en el layout principal (`src/app/layout.tsx`).
 - Estructura y clases conservadas para futura adaptación a Tailwind.
+
+### 5.9 Estilización del componente Menu
+- Se crearon y organizaron todos los archivos CSS relacionados con el menú en la carpeta `src/styles/menu/` (`menu.css`, `menu-header.css`, `menu-imagen.css`, `menu-title.css`, `menu-list.css`, `menu-list-item.css`, `menu-list-item-contacto.css`).
+- Se actualizaron las rutas de importación en `globals.css` para reflejar la nueva estructura.
+- Se revisó y mejoró la responsividad y visualización del menú hamburguesa.
+- El componente Menu ahora es más fácil de mantener, escalable y con estilos desacoplados del resto de la aplicación.
+
+### 5.10 Estilización del componente Title
+- Se crearon múltiples archivos CSS en `src/styles/titulo/` para separar y organizar los estilos del componente Title (`title.css`, `title-bio.css`, `title-container.css`, etc.).
+- Se importaron todos los archivos CSS de la carpeta en `globals.css` para aplicar los estilos globalmente.
+- Se revisaron y ajustaron las clases del JSX en `src/components/Title.tsx` para que coincidan con los nombres definidos en los archivos CSS.
+- El resultado es un componente Title moderno, responsivo y fácil de mantener.
 
 ---
 
@@ -135,7 +174,7 @@ nombre-del-proyecto/
 
 ---
 
-## Notas adicionales
+## 9. Notas adicionales
 
 - Puedes tener archivos `.js` y `.ts` juntos durante la migración.
 - Aprovecha las ventajas de TypeScript y Tailwind para mejorar tu código.
