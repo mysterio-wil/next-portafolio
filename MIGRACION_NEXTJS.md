@@ -179,6 +179,23 @@ nombre-del-proyecto/
 
 ---
 
+## Organización recomendada: layout.tsx y page.tsx
+
+Para mantener una arquitectura limpia y escalable en Next.js (app router):
+
+- **layout.tsx**: Incluye solo los componentes globales que deben estar presentes en todas las páginas, como el menú de navegación (`Menu`) y el pie de página (`Footer`). Estos envuelven el contenido de cada página y no deben duplicarse en los archivos de página.
+
+- **page.tsx**: Incluye únicamente los componentes específicos del contenido principal de la página (por ejemplo: `Title`, `About`, `Skills`, `Hobbies`, `Academic`, `Experience`, `Contact`). Aquí no se deben incluir componentes globales como `Menu` o `Footer`.
+
+**Ventajas de este patrón:**
+- Evita duplicados de componentes globales.
+- Mejora la organización y mantenibilidad del código.
+- Permite que los elementos globales no se recarguen al navegar entre páginas.
+
+> Esta estructura sigue las mejores prácticas recomendadas por Next.js y facilita la escalabilidad del portafolio.
+
+---
+
 ## Estilización del componente Experience
 
 El componente Experience utiliza una estructura modular de CSS para mantener el código organizado y facilitar la mantenibilidad. La estilización se realizó siguiendo estos pasos:
@@ -233,6 +250,25 @@ El componente Contact utiliza una estructura modular de CSS para mantener la org
    - Modularidad para facilitar futuras modificaciones.
 
 > Esta estructura permite una fácil escalabilidad y mantenimiento del formulario de contacto.
+
+---
+
+## Estilización del componente Footer
+
+El componente Footer utiliza una estructura modular de CSS:
+
+1. **Organización de archivos CSS**
+   - Los estilos del Footer están en `src/styles/footer/footer.css` y `src/styles/footer/footer-rodapie.css`.
+   - Estos archivos contienen las reglas para el diseño, alineación y colores del pie de página.
+
+2. **Importación global**
+   - Ambos archivos CSS se importan en `src/app/globals.css` para aplicar los estilos globalmente en toda la aplicación.
+
+3. **Buenas prácticas**
+   - Modularidad: cada sección del Footer tiene su propio archivo de estilos.
+   - Nombres de clases claros y específicos para evitar conflictos.
+
+> Esta estructura asegura que el Footer sea consistente, fácilmente modificable y mantenga la coherencia visual del portafolio.
 
 ---
 

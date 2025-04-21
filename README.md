@@ -80,7 +80,16 @@ Esto mejora el orden y facilita el mantenimiento. Las importaciones en `globals.
 - `Academic`: Formación académica. Estilizado con CSS modularizado en `src/styles/academic/` para mayor organización y mantenibilidad.
 - `Experience`: Experiencia profesional. Estilizado con CSS modularizado en `src/styles/experience/` para mayor organización y mantenibilidad. Las imágenes usan `object-fit: contain` para mostrarse completas y centradas, adaptándose proporcionalmente al área asignada.
 - `Contact`: Formulario de contacto. Estilizado con CSS modularizado en `src/styles/formcontact/` para mayor organización y mantenibilidad. Todas las partes del formulario (inputs, botones, textos, etc.) cuentan con archivos CSS dedicados e importados globalmente.
-- `Footer`: Pie de página
+- `Footer`: Pie de página. Estilizado con CSS modularizado en `src/styles/footer/` (`footer.css` y `footer-rodapie.css`) para diseño, alineación y colores. Los estilos se importan globalmente en `globals.css` para asegurar consistencia visual y fácil mantenimiento.
+
+---
+
+## Estructura recomendada Next.js (app router)
+
+- **layout.tsx**: Incluye componentes globales como el menú de navegación (`Menu`) y el pie de página (`Footer`). Estos envuelven el contenido principal y se muestran en todas las páginas.
+- **page.tsx**: Incluye solo los componentes del contenido principal de la página (`Title`, `About`, `Skills`, `Hobbies`, `Academic`, `Experience`, `Contact`, etc.). Aquí **no** se deben incluir componentes globales.
+
+Esta separación evita duplicados, mejora la organización y sigue las mejores prácticas de Next.js para aplicaciones escalables.
 
 ---
 

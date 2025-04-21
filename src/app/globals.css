@@ -74,6 +74,9 @@
 @import '../styles/formcontact/formcontact-textarea.css';
 @import '../styles/formcontact/formcontact-title.css';
 
+@import '../styles/footer/footer.css';
+@import '../styles/footer/footer-rodapie.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

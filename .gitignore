@@ -39,3 +39,23 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Archivos y carpetas innecesarios para GitHub
+.idea/
+.next/
+node_modules/
+dist/
+.DS_Store
+*.log
+.env*
+*.local
+*.cache
+*.tmp
+js/
+# Archivos temporales de editores
+*.swp
+*.swo
+*.bak
+*.~
+# Archivos de sistema
+Thumbs.db
