@@ -33,6 +33,13 @@
 @import '../styles/skill/skills-name.css';
 @import '../styles/skill/skills-title.css';
 
+@import '../styles/hobbie/hobbies.css';
+@import '../styles/hobbie/hobbies-box.css';
+@import '../styles/hobbie/hobbies-img.css';
+@import '../styles/hobbie/hobbies-line.css';
+@import '../styles/hobbie/hobbies-name.css';
+@import '../styles/hobbie/hobbies-title.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

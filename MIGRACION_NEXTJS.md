@@ -159,6 +159,12 @@ nombre-del-proyecto/
 - Se recomienda revisar que las clases en el JSX de `Skills.tsx` coincidan con los nombres definidos en los archivos CSS para asegurar la correcta aplicación de estilos.
 - El componente Skills ahora es más fácil de mantener, escalable y con estilos desacoplados del resto de la aplicación.
 
+### 5.13 Estilización del componente Hobbies
+- Se crearon y organizaron todos los archivos CSS relacionados con el componente Hobbies en la carpeta `src/styles/hobbie/` (`hobbies.css`, `hobbies-box.css`, `hobbies-img.css`, `hobbies-line.css`, `hobbies-name.css`, `hobbies-title.css`).
+- Se importaron todos los archivos CSS de la carpeta en `globals.css` para aplicar los estilos globalmente.
+- Se recomienda revisar que las clases en el JSX de `Hobbies.tsx` coincidan con los nombres definidos en los archivos CSS para asegurar la correcta aplicación de estilos.
+- El componente Hobbies ahora es más fácil de mantener, escalable y con estilos desacoplados del resto de la aplicación.
+
 ---
 
 ## 6. Migrar scripts JS a TypeScript

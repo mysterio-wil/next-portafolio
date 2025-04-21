@@ -76,7 +76,7 @@ Esto mejora el orden y facilita el mantenimiento. Las importaciones en `globals.
 - `Title`: Sección de presentación
 - `About`: Sobre mí. Estilizado con CSS modularizado en `src/styles/about/` para mayor organización y mantenibilidad.
 - `Skills`: Habilidades técnicas. Estilizado con CSS modularizado en `src/styles/skill/` para mayor organización y mantenibilidad.
-- `Hobbies`: Hobbies
+- `Hobbies`: Intereses y pasatiempos. Estilizado con CSS modularizado en `src/styles/hobbie/` para mayor organización y mantenibilidad.
 - `Academic`: Formación académica
 - `Experience`: Experiencia profesional
 - `Contact`: Formulario de contacto
